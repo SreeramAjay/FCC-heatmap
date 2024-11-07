@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(rgb(30,30,30), rgb(25,25,25));
+    color: #FCFCFC;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+h1, h2 {
+    margin: 10px;
+}
+
+#chart {
+    width: 1200px;
+    margin: 20px auto;
+}
+
+.tooltip {
+    position: absolute;
+    padding: 10px;
+    background: rgba(250, 250, 250, 0.75);
+    border-radius: 3px;
+    font-size: 14px;
+    pointer-events: none;
+    text-align: left;
+}
+
+.axis-line, 
+.axis path {
+    stroke: #FCFCFC;
+}
+
+.lengend rect {
+    width: 35px; 
+    height: 20px;
+}
